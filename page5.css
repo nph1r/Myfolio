@@ -732,18 +732,18 @@
 
     .pic11{
         position: absolute;
-        left: 17%;
-        top:64%;
-        width: 31%;
+        left: 24%;
+        top:58%;
+        width: 50%;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
 
     .pic12{
         position: absolute;
-        left: 50%;
-        top:64%;
-        width: 31%;
+        left: 24%;
+        top:78%;
+        width: 50%;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
@@ -752,7 +752,7 @@
     .act5{
         position: relative;
         background-color: rgb(255, 255, 255);
-        height: 1000px;
+        height: 600px;
         width: 100%;
     }
 
@@ -760,7 +760,7 @@
         position: absolute;
         left: 14%;
         color: rgb(0, 0, 0);
-        font-size: 60px;
+        font-size: 25px;
         font-family: "Kanit", sans-serif;
         font-weight: 700;
         font-style: normal;
@@ -768,22 +768,21 @@
 
     .pic13{
         position: absolute;
-        left: 14%;
-        top: 22%;
-        width: 28%;
+        left: 24%;
+        top: 15%;
+        width: 50%;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
 
     .act5story{
-        width: 40%;
+        width: 70%;
         word-wrap: break-word;
         position: absolute;
-        top: 170px;
-        left: 48%;
-        right: 500px;
+        top:39%;
+        left: 14%;
         color: rgb(0, 0, 0);
-        font-size: 25px;
+        font-size: 15px;
         font-family: "Kanit", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -793,8 +792,8 @@
     .pic14{
         position: absolute;
         left: 14%;
-        top:55%;
-        width: 28%;
+        top:60%;
+        width: 31%;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
@@ -802,17 +801,17 @@
     .pic15{
         position: absolute;
         left: 50%;
-        top:55%;
-        width: 28%;
+        top:60%;
+        width: 31%;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
 
     .pic16{
         position: absolute;
-        left: 48%;
-        top:35%;
-        width: 28%;
+        left: 14%;
+        top:82%;
+        width: 67%;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
