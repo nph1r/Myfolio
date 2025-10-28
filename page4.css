@@ -975,3 +975,15 @@
         height: 75%;
     }
 }
+
+@media screen and (min-width: 821px) and (max-width: 1024px) {
+  body {
+    zoom: 0.66;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 820px) {
+  body {
+    zoom: 0.54;
+  }
+}

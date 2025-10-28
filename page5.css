@@ -129,7 +129,7 @@
 }
 
 .act1story{
-    width: 40%;
+    width: 30%;
     word-wrap: break-word;
     position: absolute;
     top: 17%;
@@ -815,4 +815,16 @@
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
+}
+
+@media screen and (min-width: 821px) and (max-width: 1024px) {
+  body {
+    zoom: 0.70;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 820px) {
+  body {
+    zoom: 0.55;
+  }
 }
