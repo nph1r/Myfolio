@@ -1,0 +1,714 @@
+.header {
+    background-color: rgb(29, 29, 29);
+    position: relative;
+    height: 150px;
+    width: 100%;
+}
+
+.logo {
+    width: 19%;
+    position: absolute;
+    left: 17%;
+}
+
+.edu {
+    position: absolute;
+    right: 32%;
+    top: 40%;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding: 8px 24px; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.act {
+    position: absolute;
+    right: 17%;
+    top: 40%;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding: 8px 24px; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.act:hover {
+    background-color: rgb(97, 97, 97);
+}
+
+.edu:hover {
+    background-color: rgb(97, 97, 97);
+}
+
+
+
+.profile {
+    background-color: rgb(22, 22, 22);
+    position: relative;
+    height: 75%;
+    width: 100%;
+}
+
+.topic {
+    position: absolute;
+    left: 17%;
+    top: -5%;
+    color: rgb(255, 255, 255);
+    font-size: 370%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.mepic {
+    position: absolute;
+    width: 15%;
+    left: 17%;
+    top: 31%
+}
+
+.infopic{
+  position: absolute;
+  left: 32%;
+  top: 25%;
+  width: 50%;
+}
+
+.main {
+    position: relative;
+    background-color: rgb(34, 34, 34);
+    height: 120%;
+    width: 100%;
+}
+
+.topic_act {
+    position: absolute;
+    left: 17%;
+    color: rgb(255, 255, 255);
+    font-size: 400%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.slider {
+    position: relative;
+    top: 30%;
+    left: 17%;
+    width: 65%;
+    height: 60%;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+
+.slides {
+    position: absolute;
+    display: flex;
+    top : -70px;
+    width: 100%;
+    animation: slideAnimation 21s infinite;
+}
+
+.slides img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ทำให้มันเลื่อนเอง */
+@keyframes slideAnimation {
+  0% { transform: translateX(0%); }
+  14% { transform: translateX(0%); }
+
+  16% { transform: translateX(-100%); }
+  28% { transform: translateX(-100%); }
+
+  30% { transform: translateX(-200%); }
+  42% { transform: translateX(-200%); }
+
+  44% { transform: translateX(-300%); }
+  56% { transform: translateX(-300%); }
+
+  58% { transform: translateX(-400%); }
+  70% { transform: translateX(-400%); }
+
+  72% { transform: translateX(-500%); }
+  84% { transform: translateX(-500%); }
+
+  86% { transform: translateX(-600%); }
+  100% { transform: translateX(-600%); }
+}
+
+.achive {
+  background-color: rgb(34, 34, 34);
+  width: 100%;
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: "Kanit", sans-serif;
+}
+
+/* กล่องรวมทั้งหมด */
+.achive-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* ให้ภาพอยู่กลาง */
+  gap: 60px 6%; /* ช่องว่างระหว่างแถวและคอลัมน์ */
+  width: 70%;
+}
+
+/* กล่องแต่ละภาพ */
+.achive-grid .box {
+  position: relative;
+  width: 40%; /* 2 คอลัมน์ */
+  aspect-ratio: 1/1.3; /* สัดส่วนแนวนอน */
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* รูปภาพพื้นฐาน */
+.achive-grid .box img {
+  width: 100%; /* ✅ ให้รูปเต็มกล่อง */
+  height: 100%;
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover; /* ปรับให้ไม่เพี้ยน */
+  transition: 0.4s ease-in-out;
+}
+
+/* ซ่อนภาพหลัง */
+.achive-grid .box img[class*="after"] {
+  opacity: 0;
+}
+
+/* Hover effect */
+.achive-grid .box:hover img:first-child {
+  filter: blur(6px);
+  opacity: 0;
+}
+
+.achive-grid .box:hover img[class*="after"] {
+  opacity: 1;
+  filter: blur(0);
+}
+
+
+
+
+
+.eduzone {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 110%;
+    width: 100%;
+}
+
+.education {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 17%;
+    font-size: 400%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.wkzone {
+    position: absolute;
+    top: 25%;
+    left: 17%;
+    width: 70%;
+}
+
+.pkszone {
+    position: absolute;
+    top: 60%;
+    left: 17%;
+    width: 70%;
+}
+
+.pp {
+    position: relative;
+    background-color: rgb(31, 31, 31);
+    height: 150%;
+    width: 100%;
+}
+
+.pptext {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 17%;
+    font-size: 370%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pp1 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 17%;
+    top: 14%;
+    font-size: 300%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.pp2 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 55%;
+    top: 14%;
+    font-size: 300%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.b1pp {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 4px 24px;
+    left: 25%;
+    top: 83%;
+    
+    font-size: 30px; 
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.b2pp {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 4px 24px;
+    left: 64%;
+    top: 83%;
+    
+    font-size: 30px; 
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.pic1f{
+    position: absolute;
+    left:17%;
+    top: 30%;
+    border-radius: 15px;
+    width: 25%;
+}
+
+.pic2f{
+    position: absolute;
+    left:55%;
+    top: 30%;
+    border-radius: 15px;
+    width: 25%;
+}
+
+.bottom {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  height: 40%;
+  width: 100%;
+}
+
+.contact{
+  position: absolute;
+  color: rgb(0, 0, 0);
+  left: 17%;
+  margin-top: 20px;
+  font-size: 370%;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bottomtab{
+  position: absolute;
+  left: 16%;
+  top: 38%;
+  width: 40%;
+}
+
+@media (max-width: 768px) {
+  .header {
+      background-color: rgb(39, 39, 39);
+      position: relative;
+      height: 100px;
+      width: 100%;
+  }
+  .logo {
+      width: 38%;
+      position: absolute;
+      left: 10%;
+      top: 20%
+  }
+
+  .edu {
+      position: absolute;
+      right: 32%;
+      top: 40%;
+      background-color: rgb(20, 20, 20);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 8px;
+      padding: 8px 8px;
+      transition: 0.3s;
+      font-family: "Kanit", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+  }
+
+  .act {
+      position: absolute;
+      right: 10%;
+      top: 40%;
+      background-color: rgb(20, 20, 20);
+      color: white;
+      border: none;
+      padding: 8px 8px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 8px;
+      transition: 0.3s;
+      font-family: "Kanit", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+  }
+
+  .act:hover {
+      background-color: rgb(97, 97, 97);
+  }
+
+  .edu:hover {
+      background-color: rgb(97, 97, 97);
+  }
+
+  .profile {
+    background-color: rgb(22, 22, 22);
+    position: relative;
+    height: 230px;
+    width: 100%;
+  }
+
+  .topic {
+      position: absolute;
+      left: 10%;
+      top: -8%;
+      color: rgb(255, 255, 255);
+      font-size: 30px;
+      font-family: "Kanit", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+  }
+
+  .mepic {
+      position: absolute;
+      width: 19%;
+      left: 9%;
+      top: 29.5%
+  }
+
+  .infopic{
+    position: absolute;
+    left: 28%;
+    top: 25%;
+    width: 65%;
+  }
+
+  .main {
+    position: relative;
+    background-color: rgb(34, 34, 34);
+    height: 350px;
+    width: 100%;
+  }
+
+  .topic_act {
+      position: absolute;
+      left: 10%;
+      color: rgb(255, 255, 255);
+      font-size: 30px;
+      font-family: "Kanit", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+  }
+
+  .slider {
+      position: relative;
+      top: 30%;
+      left: 16%;
+      width: 70%;
+      height: 50%;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+  }
+
+  .slides {
+      position: absolute;
+      display: flex;
+      top : 0px;
+      width: 100%;
+      animation: slideAnimation 21s infinite;
+  }
+
+  .slides img {
+      width: 100%;
+      object-fit: cover;
+  }
+
+  /* ทำให้มันเลื่อนเอง */
+  @keyframes slideAnimation {
+    0% { transform: translateX(0%); }
+    14% { transform: translateX(0%); }
+
+    16% { transform: translateX(-100%); }
+    28% { transform: translateX(-100%); }
+
+    30% { transform: translateX(-200%); }
+    42% { transform: translateX(-200%); }
+
+    44% { transform: translateX(-300%); }
+    56% { transform: translateX(-300%); }
+
+    58% { transform: translateX(-400%); }
+    70% { transform: translateX(-400%); }
+
+    72% { transform: translateX(-500%); }
+    84% { transform: translateX(-500%); }
+
+    86% { transform: translateX(-600%); }
+    100% { transform: translateX(-600%); }
+  }
+
+  .achive {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: "Kanit", sans-serif;
+  }
+
+  /* กล่องรวมทั้งหมด */
+  .achive-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* ให้ภาพอยู่กลาง */
+    gap: 10px 6%; /* ช่องว่างระหว่างแถวและคอลัมน์ */
+    width: 70%;
+  }
+
+  /* กล่องแต่ละภาพ */
+  .achive-grid .box {
+    position: relative;
+    width: 40%; /* 2 คอลัมน์ */
+    aspect-ratio: 1/1.3; /* สัดส่วนแนวนอน */
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  /* รูปภาพพื้นฐาน */
+  .achive-grid .box img {
+    width: 100%; /* ✅ ให้รูปเต็มกล่อง */
+    height: 100%;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover; /* ปรับให้ไม่เพี้ยน */
+    transition: 0.4s ease-in-out;
+  }
+
+  /* ซ่อนภาพหลัง */
+  .achive-grid .box img[class*="after"] {
+    opacity: 0;
+  }
+
+  /* Hover effect */
+  .achive-grid .box:hover img:first-child {
+    filter: blur(6px);
+    opacity: 0;
+  }
+
+  .achive-grid .box:hover img[class*="after"] {
+    opacity: 1;
+    filter: blur(0);
+  }
+
+
+  .eduzone {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    width: 100%;
+  }
+
+  .education {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 10%;
+    font-size: 25px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .wkzone {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 95%;
+  }
+
+  .pkszone {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    width: 95%;
+  }
+
+  .pp {
+    position: relative;
+    background-color: rgb(31, 31, 31);
+    height: 1000px;
+    width: 100%;
+  }
+
+  .pptext {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 10%;
+    font-size: 30px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .pp1 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 17%;
+    top: 5%;
+    font-size: 30px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .pp2 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 17%;
+    top: 49%;
+    font-size: 30px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+
+  .b1pp {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: none;
+    padding: 4px 24px;
+    left: 30%;
+    top: 45%;
+    
+    font-size: 20px; 
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .b2pp {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 4px 24px;
+    border: none;
+    left: 30%;
+    top: 89%;
+    
+    font-size: 20px; 
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .pic1f{
+    position: absolute;
+    left:22%;
+    top: 14%;
+    border-radius: 15px;
+    width: 45%;
+  }
+
+  .pic2f{
+    position: absolute;
+    left:22%;
+    top: 58%;
+    border-radius: 15px;
+    width: 45%;
+  }
+  .bottom {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height:200px;
+    width: 100%;
+  }
+  .contact{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 17%;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .bottomtab{
+    position: absolute;
+    left: 16%;
+    top: 38%;
+    width: 60%;
+  }
+
+}

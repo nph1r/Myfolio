@@ -1,0 +1,621 @@
+.header {
+    background-color: rgb(29, 29, 29);
+    position: relative;
+    height: 110px;
+    width: 100%;
+}
+.tomain {
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 24px; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.tomain:hover {
+    background-color: rgb(97, 97, 97);
+}
+.logo {
+    width: 20%;
+    position: absolute;
+    left: 10%;
+}
+
+
+
+.top{
+    position: relative;
+    background-color: rgb(26, 26, 26);
+    height: 1000px;
+    width: 100%;
+}
+
+.topic{
+    position: absolute;
+    left: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.slider {
+    position: relative;
+    top: 20%;
+    left: 15%;
+    width: 65%;
+    height: 66%;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.slides {
+    position: absolute;
+    display: flex;
+    top : -70px;
+    width: 100%;
+    animation: slideAnimation 21s infinite;
+}
+
+.slides img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ทำให้มันเลื่อนเอง */
+@keyframes slideAnimation {
+  0% { transform: translateX(0%); }
+  14% { transform: translateX(0%); }
+
+  16% { transform: translateX(-100%); }
+  28% { transform: translateX(-100%); }
+
+  30% { transform: translateX(-200%); }
+  42% { transform: translateX(-200%); }
+
+  44% { transform: translateX(-300%); }
+  56% { transform: translateX(-300%); }
+
+  58% { transform: translateX(-400%); }
+  70% { transform: translateX(-400%); }
+
+  72% { transform: translateX(-500%); }
+  84% { transform: translateX(-500%); }
+
+  86% { transform: translateX(-600%); }
+  100% { transform: translateX(-600%); }
+}
+
+
+.mid{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 1080px;
+    width: 100%;
+}
+.storytext{
+    position: absolute;
+    left: 25%;
+    color: rgb(22, 22, 22);
+    font-size: 70px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.at{
+    position: absolute;
+    right: 17%;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.midpic1{
+    position: absolute;
+    border-radius: 10px;
+    width: 20%;
+    right: 10%;
+    top:24%;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+.storytext1{
+    width: 50%;
+    word-wrap: break-word;
+    position: absolute;
+    left: 15%;
+    top: 24%;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.midpic2{
+    position: absolute;
+    border-radius: 10px;
+    width: 20%;
+    right: 10%;
+    top: 70%;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+.cern1{
+    position: absolute;
+    border-radius: 10px;
+    width: 18%;
+    left: 43%;
+    top: 70%;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+.cern2{
+    position: absolute;
+    border-radius: 10px;
+    width: 18.5%;
+    left: 17%;
+    top: 70%;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+.mid2{
+    position: relative;
+    background-color: rgb(27, 27, 27);
+    height: 1450px;
+    width: 100%;
+}
+
+
+.storytext2{
+    position: absolute;
+    right: 30%;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.at2{
+    position: absolute;
+    left: 17%;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.midpic4{
+    position: absolute;
+    border-radius: 10px;
+    width: 20%;
+    left: 15%;
+    top: 17%;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+.midpic5{
+    position: absolute;
+    border-radius: 10px;
+    width: 20%;
+    left: 15%;
+    top: 54%;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+.midpic6{
+    position: absolute;
+    border-radius: 10px;
+    width: 20%;
+    left: 15%;
+    top: 80%;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+.cern3{
+    position: absolute;
+    border-radius: 10px;
+    width: 20%;
+    top: 80%;
+    left: 45%;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+.cern4{
+    position: absolute;
+    border-radius: 10px;
+    width: 20%;
+    left: 70%;
+    top: 80%;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+.storytext3{
+    width: 50%;
+    word-wrap: break-word;
+    position: absolute;
+    left: 40%;
+    top: 14%;
+    color: rgb(182, 182, 182);
+    font-size: 25px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.s1{
+    color: rgb(255, 158, 31);
+}
+
+.c1{
+    color: rgb(255, 123, 0);
+}
+
+.mid3{
+    position: relative;
+    background-color: white;
+    height: 200px;
+    width: 100%;
+}
+
+.logo1{
+    position: absolute;
+    width: 8%;
+    left: 14%;
+    top: 2%;
+}
+
+.logo2{
+    position: absolute;
+    width: 7.5%;
+    top:10px;
+    right : 10%;
+}
+
+.logo3{
+    position: absolute;
+    width: 6%;
+    left: 17%;
+    top:20%;
+}
+
+.thank{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    color: rgb(31, 29, 29);
+    font-size: 50px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 768px) {
+    .header {
+      background-color: rgb(39, 39, 39);
+      position: relative;
+      height: 100px;
+      width: 100%;
+    }
+    .logo {
+        width: 38%;
+        position: absolute;
+        left: 10%;
+        top: 20%
+    }
+    .tomain {
+        position: absolute;
+        right: 10%;
+        top: 30%;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        padding: 10px 24px; 
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 12px;
+        transition: 0.3s;
+        font-family: "Kanit", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+    .tomain:hover {
+        background-color: rgb(97, 97, 97);
+    }
+    .top{
+        
+        position: relative;
+        background-color: rgb(26, 26, 26);
+        height: 320px;
+        width: 100%;
+    }
+
+    .topic{
+        width: 80%;
+        word-wrap: break-word;
+        position: absolute;
+        left: 10%;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .slider {
+        position: relative;
+        top: 30%;
+        left: 15%;
+        width: 65%;
+        height: 55%;
+        overflow: hidden;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .slides {
+        position: absolute;
+        display: flex;
+        top : 0px;
+        width: 100%;
+        animation: slideAnimation 21s infinite;
+    }
+
+    .slides img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* ทำให้มันเลื่อนเอง */
+    @keyframes slideAnimation {
+    0% { transform: translateX(0%); }
+    14% { transform: translateX(0%); }
+
+    16% { transform: translateX(-100%); }
+    28% { transform: translateX(-100%); }
+
+    30% { transform: translateX(-200%); }
+    42% { transform: translateX(-200%); }
+
+    44% { transform: translateX(-300%); }
+    56% { transform: translateX(-300%); }
+
+    58% { transform: translateX(-400%); }
+    70% { transform: translateX(-400%); }
+
+    72% { transform: translateX(-500%); }
+    84% { transform: translateX(-500%); }
+
+    86% { transform: translateX(-600%); }
+    100% { transform: translateX(-600%); }
+    }
+
+
+    .mid{
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        height: 650px;
+        width: 100%;
+    }
+    .storytext{
+        position: absolute;
+        left: 25%;
+        top: 3%;
+        color: rgb(22, 22, 22);
+        font-size: 20px;
+        font-family: "Kanit", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .at{
+        position: absolute;
+        right: 10%;
+        top: 3%;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    .midpic1{
+        position: absolute;
+        border-radius: 10px;
+        width: 25%;
+        left: 14%;
+        top:12%;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    }
+
+    .storytext1{
+        width: 70%;
+        word-wrap: break-word;
+        position: absolute;
+        left: 15%;
+        top: 30%;
+        color: rgb(0, 0, 0);
+        font-size: 12px;
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+
+    .midpic2{
+        position: absolute;
+        border-radius: 10px;
+        width: 45%;
+        right: 10%;
+        top:12%;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    }
+
+    .cern1{
+        position: absolute;
+        border-radius: 10px;
+        width: 35%;
+        left: 52%;
+        top: 81.5%;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    }
+
+    .cern2{
+        position: absolute;
+        border-radius: 10px;
+        width: 36%;
+        left: 14%;
+        top: 81.5%;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    }
+
+    .mid2{
+        position: relative;
+        background-color: rgb(27, 27, 27);
+        height: 1000px;
+        width: 100%;
+    }
+
+
+    .storytext2{
+        position: absolute;
+        right: 30%;
+        top: 1%;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .at2{
+
+        position: absolute;
+        top: 1%;
+        right: 10%;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .midpic4{
+        position: absolute;
+        border-radius: 10px;
+        width: 2%;
+        left: 20%;
+        top: 10%;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    }
+
+    .midpic5{
+        position: absolute;
+        border-radius: 10px;
+        width: 35%;
+        left: 15%;
+        top: 10%;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    }
+
+    .midpic6{
+        position: absolute;
+        border-radius: 10px;
+        width: 35%;
+        left: 52%;
+        top: 10%;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    }
+
+    .cern3{
+        position: absolute;
+        border-radius: 10px;
+        width: 35%;
+        top: 85%;
+        left: 14%;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    }
+
+    .cern4{
+        position: absolute;
+        border-radius: 10px;
+        width: 35%;
+        left: 52%;
+        top: 85%;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    }
+
+    .storytext3{
+        width: 70%;
+        word-wrap: break-word;
+        position: absolute;
+        left: 14%;
+        top: 20%;
+        color: rgb(182, 182, 182);
+        font-size: 12px;
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .s1{
+        color: rgb(255, 158, 31);
+    }
+
+    .c1{
+        color: rgb(255, 123, 0);
+    }
+
+    .mid3{
+        position: relative;
+        background-color: white;
+        height: 80px;
+        width: 100%;
+    }
+
+    .logo1{
+        position: absolute;
+        width: 12%;
+        left: 10%;
+    }
+
+    .logo2{
+        position: absolute;
+        width: 12%;
+        right: 10%;
+    }
+
+    .logo3{
+        position: absolute;
+        width: 12%;
+        right: 10%;
+        top:7%;
+    }
+
+    .thank{
+        position: absolute;
+        left: 24%;
+        top: 22%;
+        color: rgb(31, 29, 29);
+        font-size: 14px;
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+}

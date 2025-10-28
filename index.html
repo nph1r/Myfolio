@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Myfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style1.css">
+    </head>
+
+    <body style="margin:0; padding:0;">
+
+        <div class="header">
+            <a href="index.html">
+                <img class = "logo" src="LOGO.png">
+            </a>
+
+            <button onclick="scrolltoactivity()" class="act">รวมผลงานและกิจกรรม</button>
+
+            <button onclick="scrolltoeducation()" class="edu">ประวัติการศึกษา</button> 
+
+        </div>
+
+        
+        <div class="profile">
+            <p class="topic">ประวัติส่วนตัว profile</p>
+            <img src="me.jpg" class ="mepic">
+            <img src="info.png" class="infopic">
+        </div>
+
+        <div class="main">
+            <p class="topic_act">กิจกรรม activity</p>
+            <div class="slider">
+                <div class="slides">
+                    <img src="img1.jfif" alt="ภาพที่ 1">
+                    <img src="img2.jfif" alt="ภาพที่ 2">
+                    <img src="img3.jfif" alt="ภาพที่ 3">
+                    <img src="img4.jpg"  alt="ภาพที่ 4">
+                    <img src="img5.jpg"  alt="ภาพที่ 5">
+                    <img src="img6.jfif" alt="ภาพที่ 6">
+                    <img src="img7.jpg"  alt="ภาพที่ 7">
+                </div>
+            </div>
+        </div>
+
+        <div id="achivezone" class="achive">
+
+            <div class="achive-grid">
+                <a href="page1.html" class="box">
+                <img src="box1.jpg" class="b1">
+                <img src="box1after.jpg" class="b1after">
+                </a>
+
+                <a href="kibo.html" class="box">
+                <img src="box2.jpg" class="b2">
+                <img src="box2after.jpg" class="b2after">
+                </a>
+
+                <a href="page3.html" class="box">
+                <img src="box3.jpg" class="b3">
+                <img src="box3after.jpg" class="b3after">
+                </a>
+
+                <a href="page4.html" class="box">
+                <img src="box4.jpg" class="b4">
+                <img src="box4after.jpg" class="b4after">
+                </a>
+
+                <a href="page5.html" class="box">
+                <img src="box5.jpg" class="b5">
+                <img src="box5after.jpg" class="b5after">
+                </a>
+
+                <a href="page6.html" class="box">
+                <img src="box6.jpg" class="b6">
+                <img src="box6after.jpg" class="b6after">
+                </a>
+            </div>
+        </div>
+
+
+        <div id="eduzones" class="eduzone">
+            <p class="education">ประวัติการศึกษา education</p>
+            <img src="wkzone2.png" class="wkzone">
+            <img src="pkszone.png" class="pkszone">
+        </div>
+        <div class="pp">
+            <p class="pptext">ใบแสดงผลการเรียน ปพ.1</p>
+            <p class="pp1">มัธยมศึกษาตอนต้น</p>
+            <p class="pp2">มัธยมศึกษาตอนปลาย</p>
+            
+
+            <img src="pp1font.jfif" id="img1" class="pic1f">
+            <button class="b1pp" onclick="change1()">พลิกหน้า</button>
+
+            <img src="pp1font.jfif" id="img2" class="pic2f">
+            <button class="b2pp" onclick="change2()">พลิกหน้า</button>
+
+        </div>
+
+        <div class = "bottom">
+
+            <p class="contact">ข้อมูลติดต่อ contact</p>
+
+            <img src="bottomtab.png" class="bottomtab">
+
+        </div>
+        <script src="index1.js"></script>
+    </body>
+</html>
