@@ -1,5 +1,6 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <title>Myfolio</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,28 +13,25 @@
     <body style="margin:0; padding:0;">
 
         <div class="header">
-            <div class="headbox1">
-                <a href="index.html"><img class = "logo" src="LOGO.png"></a>
-            </div>
-        
-            <div class="headbox2">
-                <button onclick="scrolltoactivity()" class="act">รวมผลงานและกิจกรรม</button>
-                <button onclick="scrolltoeducation()" class="edu">ประวัติการศึกษา</button> 
-            </div>
+            <a href="index.html">
+                <img class = "logo" src="LOGO.png">
+            </a>
+
+            <button onclick="scrolltoactivity()" class="act">รวมผลงานและกิจกรรม</button>
+
+            <button onclick="scrolltoeducation()" class="edu">ประวัติการศึกษา</button> 
 
         </div>
 
         
         <div class="profile">
             <p class="topic">ประวัติส่วนตัว profile</p>
-            <div class="profilebox">
-                <img src="me.jpg" class ="mepic">
-                <img src="info.png" class="infopic">
-            </div>
+            <img src="me.jpg" class ="mepic">
+            <img src="info.png" class="infopic">
         </div>
 
         <div class="main">
-            <p class="topic_act">กิจกรรมและผลงาน</p>
+            <p class="topic_act">กิจกรรม activity</p>
             <div class="slider">
                 <div class="slides">
                     <img src="img1.jfif" alt="ภาพที่ 1">
@@ -85,26 +83,20 @@
 
         <div id="eduzones" class="eduzone">
             <p class="education">ประวัติการศึกษา education</p>
-            <img src="wkzone2.png" class="wkzone">
+            <img src="wkzone.png" class="wkzone">
             <img src="pkszone.png" class="pkszone">
         </div>
-        
-        <div class="ppzone">
+        <div class="pp">
             <p class="pptext">ใบแสดงผลการเรียน ปพ.1</p>
+            <p class="pp1">มัธยมศึกษาตอนต้น</p>
+            <p class="pp2">มัธยมศึกษาตอนปลาย</p>
             
-            <div class="group3">
-                <div class="box11">
-                    <p class="pp1">มัธยมตอนต้น</p>
-                    <img src="pp1font.jfif" id="img1" class="pic1f">
-                    <button class="b1pp" onclick="change1()">พลิกหน้า</button>
-                </div>
 
-                <div class="box22">
-                    <p class="pp2">มัธยมตอนปลาย</p>
-                    <img src="pp1font.jfif" id="img2" class="pic2f">
-                    <button class="b2pp" onclick="change2()">พลิกหน้า</button>
-                </div>
-            </div>
+            <img src="pp1font.jfif" id="img1" class="pic1f">
+            <button class="b1pp" onclick="change1()">พลิกหน้า</button>
+
+            <img src="pp1font.jfif" id="img2" class="pic2f">
+            <button class="b2pp" onclick="change2()">พลิกหน้า</button>
 
         </div>
 
