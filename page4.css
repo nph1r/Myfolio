@@ -1,20 +1,20 @@
 .header {
     background-color: rgb(29, 29, 29);
-    position: relative;
-    width: 100%;
-    height: 120px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 14vw;
+    gap: 42vw;
 }
 .tomain {
-    position: absolute;
-    right: 14%;
-    top: 32%;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    padding: 10px 24px; 
+    padding: 0.6vw 0.8vw; 
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1vw;
     transition: 0.3s;
     font-family: "Kanit", sans-serif;
     font-weight: 500;
@@ -25,44 +25,36 @@
     background-color: rgb(97, 97, 97);
 }
 .logo {
-    width: 20%;
-    position: absolute;
-    left: 14%;
+    width: 20vw;
 }
 
 
 .top{
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgb(255, 255, 255);
-    height: 1000px;
-    width: 100%;
+    padding-bottom: 5vw;
 }
 
 .text1{
-    position: absolute;
-    left : 17%;
     color: rgb(37, 37, 37);
-    font-size: 50px;
+    font-size: 3.5vw;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
 
 .slider {
-    position: relative;
-    top: 20%;
-    left: 17%;
-    width: 65%;
-    height: 60%;
+    width: 62%;
+    height: 20%;
     overflow: hidden;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .slides {
-    position: absolute;
     display: flex;
-    top : -70px;
     width: 100%;
     animation: slideAnimation 21s infinite;
 }
@@ -96,224 +88,141 @@
   100% { transform: translateX(-600%); }
 }
 
+
+
+
 .mid1{
-    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: black;
-    height: 2200px;
-    width: 100%;
+    padding-bottom: 5vw;
 }
 
 .text2{
-    position: absolute;
-    left : 14%;
     color: rgb(255, 255, 255);
-    font-size: 45px;
+    font-size: 3vw;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
+}
+
+.expic{
+    width: 70vw;
 }
 
 .text3{
-    position: absolute;
-    left : 14%;
-    top : 24%;
+    width: 70%;
+    word-wrap: break-word;
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 2.5vw;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
-}
-.ex1{
-    position: absolute;
-    left: 14%;
-    top:8%;
-    width: 20%;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-bottom: -1vw;
 }
 
-
-.ex2{
-    position: absolute;
-    left: 40%;
-    top:8%;
-    width: 20%;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-
-
-
-
-.ex3{
-    position: absolute;
-    right:14%;
-    top:8%;
-    width: 20%;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
 
 .text4{
     width: 70%;
     word-wrap: break-word;
-    position: absolute;
-    left : 14%;
-    top : 28%;
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 1.5vw;
     font-family: "Kanit", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 .text5{
-    position: absolute;
-    left : 14%;
-    top : 38%;
+    width: 70%;
+    word-wrap: break-word;
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 2.5vw;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin-bottom: -1vw;
 }
 
-.text6{
+.text6,.text7,.text8,.text8-2{
     width: 70%;
     word-wrap: break-word;
-    position: absolute;
-    left : 14%;
-    top : 42%;
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 1.5vw;
     font-family: "Kanit", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
-
-.text7{
-    width: 70%;
-    word-wrap: break-word;
-    position: absolute;
-    left : 14%;
-    top : 44%;
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.text8{
-    width: 70%;
-    word-wrap: break-word;
-    position: absolute;
-    left : 14%;
-    top : 46%;
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.text8-2{
-    width: 70%;
-    word-wrap: break-word;
-    position: absolute;
-    left : 14%;
-    top : 48%;
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    margin-bottom: -1vw;
 }
 
 .mix{
-    position: absolute;
-    left : 14%;
-    top: 56%;
-    width: 45%;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-
-.mix2{
-    position: absolute;
-    right : 25%;
-    top: 56%;
-    width: 14%;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding-top: 3vw;
+    width: 75vw;
 }
 
 .text9{
-    position: absolute;
-    left : 14%;
-    top : 68%;
+    width: 70%;
+    word-wrap: break-word;
     color: rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: 3vw;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
 
-.box-video{
-    width: 300px;
-    height: 100px;
-    overflow: hidden;
-    border-radius: 10px;
+.lastbox1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 4vw;
 }
 
+
 .vdo1{
-    position: absolute;
-    left: 14%;
-    width: 45%;
-    top: 75%;
+    width: 43vw;
     border-radius: 10px;
     object-fit: cover;
 }
 
 .info{
-    position: absolute;
-    right : 19%;
-    top: 75%;
-    width: 20%;
+    width: 19vw;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+
+
+
+
+
+
+
+
 .mid2{
-    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: rgb(255, 255, 255);
-    height: 2500px;
-    width: 100%;
+    padding-bottom: 5vw;
 }
 
 .text10{
-    position: absolute;
-    left : 14%;
     color: rgb(0, 0, 0);
-    font-size: 50px;
+    font-size: 3.5vw;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal; 
 }
 
 .slider2 {
-    position: relative;
-    top: 8%;
-    left: 14%;
-    width: 65%;
-    height: 20%;
+    width: 65vw;
     overflow: hidden;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .slides2 {
-    position: absolute;
     display: flex;
     width: 100%;
     animation: slideAnimation2 9s infinite;
@@ -335,21 +244,25 @@
   100% { transform: translateX(-200%); }
 }
 
+.about{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+
 .ailo{
-    position: absolute;
-    left : 14%;
-    width: 18%;
-    top: 35%;
+    width: 17vw;
+
 }
 
 .text11{
     width: 40%;
     word-wrap: break-word;
-    position: absolute;
-    top: 34.6%; 
-    left: 32%;
     color: rgb(0, 0, 0);
-    font-size: 25px;
+    font-size: 1.3vw;
     font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-style: normal; 
@@ -357,633 +270,65 @@
 
 
 .text12{
-    width: 40%;
+    width: 65%;
     word-wrap: break-word;
-    position: absolute;
-    top: 48%; 
-    left: 14%;
     color: rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 3.5vw;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
-    font-style: normal; 
+    font-style: normal;
+    margin-bottom: 2vw;
 }
 
 
 .text13{
+    margin-top: -2vw;
     width: 65%;
     word-wrap: break-word;
-    position: absolute;
-    top: 53%; 
-    left: 14%;
+
     color: rgb(0, 0, 0);
-    font-size: 25px;
+    font-size: 1.5vw;
     font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-style: normal; 
 }
 
 .toptext2{
-    top: 63%; 
-    left: 14%;
-    position: absolute;
+    width: 65%;
+    word-wrap: break-word;
     color: rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 3.5vw;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal; 
+    margin-bottom: -1.5vw;
 }
 
-.text14{
+.text14,.text15,.text16,.text17{
     width: 65%;
     word-wrap: break-word;
-    position: absolute;
-    top: 68%; 
-    left: 14%;
+
     color: rgb(0, 0, 0);
-    font-size: 30px;
+    font-size: 1.5vw;
     font-family: "Kanit", sans-serif;
     font-weight: 500;
-    font-style: normal; 
+    font-style: normal;
+    margin-bottom: -0.5vw;
 }
 
-.bar1{
-    position: absolute;
-    top: 70.5%; 
-    left: 14%;
+.bar1,.bar2,.bar3,.bar4{
+    margin-left: -42vw;
     width: 25%;
+    margin-bottom: -2vw;
 }
-
-.text15{
-    width: 65%;
-    word-wrap: break-word;
-    position: absolute;
-    top: 74%; 
-    left: 14%;
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 500;
-    font-style: normal; 
-}
-
-.bar2{
-    position: absolute;
-    top: 76.5%; 
-    left: 14%;
-    width: 25%;
-}
-
-.text16{
-    width: 65%;
-    word-wrap: break-word;
-    position: absolute;
-    top: 80%; 
-    left: 14%;
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 500;
-    font-style: normal; 
-}
-
-.bar3{
-    position: absolute;
-    top: 82.5%; 
-    left: 14%;
-    width: 25%;
-}
-
-.text17{
-    width: 65%;
-    word-wrap: break-word;
-    position: absolute;
-    top: 86%; 
-    left: 14%;
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 500;
-    font-style: normal; 
-}
-
-.bar4{
-    position: absolute;
-    top: 88.5%; 
-    left: 14%;
-    width: 25%;
-}
-
 
 .bottom{
+    padding: 1vw;
     display: flex;
     justify-content: center;
-    height: 150px;
-    background-color: black;
-    width: 100%;
+    background-color: rgb(27, 27, 27);
 }
 
-
-
-@media (max-width: 768px) {
-    .header {
-      background-color: rgb(39, 39, 39);
-      position: relative;
-      height: 100px;
-      width: 100%;
-    }
-    .logo {
-        width: 38%;
-        position: absolute;
-        left: 10%;
-        top: 20%
-    }
-    .tomain {
-        position: absolute;
-        right: 10%;
-        top: 30%;
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        padding: 10px 24px; 
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
-        font-size: 12px;
-        transition: 0.3s;
-        font-family: "Kanit", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-    }
-    .tomain:hover {
-        background-color: rgb(97, 97, 97);
-    }
-    .top{
-        position: relative;
-        background-color: rgb(255, 255, 255);
-        height: 300px;
-        width: 100%;
-    }
-
-    .text1{
-        position: absolute;
-        left : 14%;
-        color: rgb(37, 37, 37);
-        font-size: 20px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-    }
-
-    .slider {
-        position: relative;
-        top: 40%;
-        left: 14%;
-        width: 75%;
-        height: 55%;
-        overflow: hidden;
-        border-radius: 12px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    }
-
-    .slides {
-        position: absolute;
-        display: flex;
-        top : 0px;
-        width: 100%;
-        animation: slideAnimation 21s infinite;
-    }
-
-    .slides img {
-        width: 100%;
-        object-fit: cover;
-    }
-
-    /* ทำให้มันเลื่อนเอง */
-    @keyframes slideAnimation {
-        0% { transform: translateX(0%); }
-        14% { transform: translateX(0%); }
-
-        16% { transform: translateX(-100%); }
-        28% { transform: translateX(-100%); }
-
-        30% { transform: translateX(-200%); }
-        42% { transform: translateX(-200%); }
-
-        44% { transform: translateX(-300%); }
-        56% { transform: translateX(-300%); }
-
-        58% { transform: translateX(-400%); }
-        70% { transform: translateX(-400%); }
-
-        72% { transform: translateX(-500%); }
-        84% { transform: translateX(-500%); }
-
-        86% { transform: translateX(-600%); }
-        100% { transform: translateX(-600%); }
-    }
-    .mid1{
-        position: relative;
-        background-color: black;
-        height: 1500px;
-        width: 100%;
-    }
-
-    .text2{
-        width: 70%;
-        word-wrap: break-word;
-        position: absolute;
-        left : 14%;
-        color: rgb(255, 255, 255);
-        font-size: 20px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-    }
-
-
-    .ex1{
-        position: absolute;
-        left: 14%;
-        top:6%;
-        width: 23%;
-        border-radius: 12px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    }
-
-
-    .ex2{
-        position: absolute;
-        left: 39%;
-        top:6%;
-        width: 23%;
-        border-radius: 12px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    }
-
-
-    .ex3{
-        position: absolute;
-        right:13%;
-        top:6%;
-        width: 23%;
-        border-radius: 12px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    }
-
-    .text3{
-        width: 70%;
-        word-wrap: break-word;
-        position: absolute;
-        left : 14%;
-        top : 12%;
-        color: rgb(255, 255, 255);
-        font-size: 20px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-    }
-
-    .text4{
-        width: 70%;
-        word-wrap: break-word;
-        position: absolute;
-        left : 14%;
-        top : 17%;
-        color: rgb(255, 255, 255);
-        font-size: 15px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    .text5{
-        position: absolute;
-        left : 14%;
-        top : 41.5%;
-        color: rgb(255, 255, 255);
-        font-size: 20px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-    }
-
-    .text6{
-        width: 70%;
-        word-wrap: break-word;
-        position: absolute;
-        left : 14%;
-        top : 44.5%;
-        color: rgb(255, 255, 255);
-        font-size: 15px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    .text7{
-        width: 70%;
-        word-wrap: break-word;
-        position: absolute;
-        left : 14%;
-        top : 48%;
-        color: rgb(255, 255, 255);
-        font-size: 15px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    .text8{
-        width: 70%;
-        word-wrap: break-word;
-        position: absolute;
-        left : 14%;
-        top : 51.5%;
-        color: rgb(255, 255, 255);
-        font-size: 15px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    .text8-2{
-        width: 70%;
-        word-wrap: break-word;
-        position: absolute;
-        left : 14%;
-        top : 55%;
-        color: rgb(255, 255, 255);
-        font-size: 15px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    .mix{
-        position: absolute;
-        left : 14%;
-        top: 60%;
-        width: 70%;
-        border-radius: 12px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    }
-
-    .mix2{
-        position: absolute;
-        right : 16%;
-        top: 85%;
-        width: 38%;
-        border-radius: 12px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    }
-
-    .text9{
-        position: absolute;
-        left : 14%;
-        top : 65%;
-        color: rgb(255, 255, 255);
-        font-size: 30px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-    }
-
-    .box-video{
-        width: 300px;
-        height: 100px;
-        overflow: hidden;
-        border-radius: 10px;
-    }
-
-    .vdo1{
-        position: absolute;
-        left: 14%;
-        width: 70%;
-        top: 72%;
-        border-radius: 10px;
-        object-fit: cover;
-    }
-
-    .info{
-        position: absolute;
-        left : 14%;
-        top: 85%;
-        width: 27%;
-        border-radius: 12px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    }
-
-    .mid2{
-        position: relative;
-        background-color: rgb(255, 255, 255);
-        height: 1200px;
-        width: 100%;
-    }
-
-    .text10{
-        width: 70%;
-        word-wrap: break-word;
-        position: absolute;
-        left : 14%;
-        color: rgb(0, 0, 0);
-        font-size: 30px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 700;
-        font-style: normal; 
-    }
-
-    .slider2 {
-        position: relative;
-        top: 12%;
-        left: 12%;
-        width: 75%;
-        height: 12%;
-        overflow: hidden;
-        border-radius: 12px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    }
-
-    .slides2 {
-        position: absolute;
-        display: flex;
-        width: 100%;
-        animation: slideAnimation2 9s infinite;
-    }
-
-    .slides2 img {
-        width: 100%;
-        object-fit: cover;
-    }
-
-    @keyframes slideAnimation2 {
-    0% { transform: translateX(0%); }
-    30% { transform: translateX(0%); }
-
-    35% { transform: translateX(-100%); }
-    65% { transform: translateX(-100%); }
-
-    70% { transform: translateX(-200%); }
-    100% { transform: translateX(-200%); }
-    }
-
-    .ailo{
-        position: absolute;
-        left : 14%;
-        width: 25%;
-        top: 26%;
-    }
-
-    .text11{
-        position: absolute;
-        top: 26%; 
-        left: 40%;
-        color: rgb(0, 0, 0);
-        font-size: 10px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 500;
-        font-style: normal; 
-    }
-
-
-    .text12{
-        position: absolute;
-        top: 41%; 
-        left: 14%;
-        color: rgb(0, 0, 0);
-        font-size: 25px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 700;
-        font-style: normal; 
-    }
-
-
-    .text13{
-        width: 65%;
-        word-wrap: break-word;
-        position: absolute;
-        top: 46%; 
-        left: 14%;
-        color: rgb(0, 0, 0);
-        font-size: 15px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 500;
-        font-style: normal; 
-    }
-
-    .toptext2{
-        top: 64%; 
-        left: 14%;
-        position: absolute;
-        color: rgb(0, 0, 0);
-        font-size: 25px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 700;
-        font-style: normal; 
-    }
-
-    .text14{
-        width: 65%;
-        word-wrap: break-word;
-        position: absolute;
-        top: 68%;  
-        left: 14%;
-        color: rgb(0, 0, 0);
-        font-size: 15px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 500;
-        font-style: normal; 
-    }
-
-    .bar1{
-        position: absolute;
-        top: 73%; 
-        left: 14%;
-        width: 40%;
-    }
-
-    .text15{
-        width: 75%;
-        word-wrap: break-word;
-        position: absolute;
-        top: 75%;  
-        left: 14%;
-        color: rgb(0, 0, 0);
-        font-size: 15px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 500;
-        font-style: normal; 
-    }
-
-    .bar2{
-        position: absolute;
-        top: 80%;  
-        left: 14%;
-        width: 40%;
-    }
-
-    .text16{
-        width: 65%;
-        word-wrap: break-word;
-        position: absolute;
-        top: 82%; 
-        left: 14%;
-        color: rgb(0, 0, 0);
-        font-size: 15px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 500;
-        font-style: normal; 
-    }
-
-    .bar3{
-        position: absolute;
-        top: 87%;   
-        left: 14%;
-        width: 40%;
-    }
-
-    .text17{
-        width: 65%;
-        word-wrap: break-word;
-        position: absolute;
-        top: 89%;  
-        left: 14%;
-        color: rgb(0, 0, 0);
-        font-size: 15px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 500;
-        font-style: normal; 
-    }
-
-    .bar4{
-        position: absolute;
-        top: 94%;  
-        left: 14%;
-        width: 40%;
-    }
-
-
-    .bottom{
-        display: flex;
-        justify-content: center;
-        height: 100px;
-        background-color: black;
-        width: 100%;
-    }
-    .end{
-        padding: 10px 0px;
-        width: 100%;
-        height: 75%;
-    }
-}
-
-@media screen and (min-width: 821px) and (max-width: 1024px) {
-  body {
-    zoom: 0.66;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 820px) {
-  body {
-    zoom: 0.54;
-  }
+.end{
+    width: 60vw;
 }

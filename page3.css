@@ -1,26 +1,20 @@
 .header {
+    background-color: rgb(29, 29, 29);
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: row;
-    background-color: rgb(29, 29, 29);
-    width: 100%;
-    height: 140px;
-}
-
-.space1{
-    width: 16%;
-}
-.space2{
-    width: 24%;
+    padding-left: 14vw;
+    gap: 42vw;
 }
 .tomain {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    padding: 10px 24px; 
+    padding: 0.6vw 0.8vw; 
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1vw;
     transition: 0.3s;
     font-family: "Kanit", sans-serif;
     font-weight: 500;
@@ -31,250 +25,27 @@
     background-color: rgb(97, 97, 97);
 }
 .logo {
-    width: 70%;
+    width: 20vw;
 }
 
 .background{
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    gap: 2vw;
     background-color: rgb(24, 24, 24);
 }
 
 .toptext{
     color: rgb(255, 255, 255);
-    font-size: 60px;
+    font-size: 3.5vw;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
 
-.box1{
-    width: 70%;
-    height: 9%;
-}
-
-.box1pic{
-    width: 100%; 
-}
 
 
-.box2{
-    margin-top: 1%;
-    width: 70%;
-    height: 9%;
-}
-
-.box2pic{
-    width: 100%; 
-}
-
-.box3{
-    margin-top: 1%;
-    width: 70%;
-    height: 9%;
-}
-
-.box3pic{
-    width: 100%; 
-}
-
-.box4{
-    margin-top: 1%;
-    width: 70%;
-    height: 9%;
-}
-
-.box4pic{
-    width: 100%; 
-}
-
-.box5{
-    margin-top: 1%;
-    width: 70%;
-    height: 9%;
-}
-
-.box5pic{
-    width: 100%; 
-}
-
-.box6{
-    margin-top: 1%;
-    width: 70%;
-    height: 9%;
-}
-
-.box6pic{
-    width: 100%; 
-}
-
-.box7{
-    margin-top: 1%;
-    width: 70%;
-    height: 9%;
-}
-
-.box7pic{
-    width: 100%; 
-}
-
-.box8{
-    margin-top: 1%;
-    width: 70%;
-    height: 9%;
-    margin-bottom: 10%;
-}
-
-.box8pic{
-    width: 100%; 
-}
-
-@media (max-width: 768px) {
-
-    .header {
-        background-color: rgb(39, 39, 39);
-        position: relative;
-        height: 100px;
-        width: 100%;
-    }
-    .logo {
-        width: 38%;
-        position: absolute;
-        left: 10%;
-        top: 20%
-    }
-    .tomain {
-        position: absolute;
-        right: 10%;
-        top: 30%;
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        padding: 10px 24px; 
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
-        font-size: 12px;
-        transition: 0.3s;
-        font-family: "Kanit", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-    }
-    .tomain:hover {
-        background-color: rgb(97, 97, 97);
-    }
-
-
-
-
-
-    .background{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        background-color: rgb(24, 24, 24);
-    }
-
-    .toptext{
-        color: rgb(255, 255, 255);
-        font-size:19px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-    }
-
-    .box1{
-        width: 80%;
-        height: 9%;
-    }
-
-    .box1pic{
-        width: 100%; 
-    }
-
-
-    .box2{
-        margin-top: 1%;
-        width: 80%;
-        height: 9%;
-    }
-
-    .box2pic{
-        width: 100%; 
-    }
-
-    .box3{
-        margin-top: 1%;
-        width: 80%;
-        height: 9%;
-    }
-
-    .box3pic{
-        width: 100%; 
-    }
-
-    .box4{
-        margin-top: 1%;
-        width: 80%;
-        height: 9%;
-    }
-
-    .box4pic{
-        width: 100%; 
-    }
-
-    .box5{
-        margin-top: 1%;
-        width: 80%;
-        height: 9%;
-    }
-
-    .box5pic{
-        width: 100%; 
-    }
-
-    .box6{
-        margin-top: 1%;
-        width: 80%;
-        height: 9%;
-    }
-
-    .box6pic{
-        width: 100%; 
-    }
-
-    .box7{
-        margin-top: 1%;
-        width: 80%;
-        height: 9%;
-    }
-
-    .box7pic{
-        width: 100%; 
-    }
-
-    .box8{
-        margin-top: 1%;
-        width: 80%;
-        height: 9%;
-        margin-bottom: 10%;
-    }
-
-    .box8pic{
-        width: 100%; 
-    }
-}
-
-@media screen and (min-width: 821px) and (max-width: 1024px) {
-  body {
-    zoom: 0.67;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 820px) {
-  body {
-    zoom: 0.55;
-  }
+.box1pic,.box2pic,.box3pic,.box4pic,.box5pic,.box6pic,.box7pic,.box8pic{
+    width: 75vw;
 }

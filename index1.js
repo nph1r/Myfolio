@@ -14,11 +14,11 @@ function change1() {
 
 function change2() {
     if(d){
-        document.getElementById("img2").src = "pp1back.jfif";
+        document.getElementById("img2").src = "newpp1.jpg";
         d=false;
     }
     else{
-        document.getElementById("img2").src = "pp1font.jfif";
+        document.getElementById("img2").src = "newpp2.jpg";
         d=true;
     }
 }
