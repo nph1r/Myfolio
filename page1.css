@@ -152,7 +152,7 @@
     width: 70%;
     word-wrap: break-word;
     color: rgb(0, 0, 0);
-    font-size: 25px;
+    font-size: 1.5vw;
     font-family: "Kanit", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -258,7 +258,7 @@
 
 
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 1.5vw;
     font-family: "Kanit", sans-serif;
     font-weight: 400;
     font-style: normal;
