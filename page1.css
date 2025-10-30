@@ -1,20 +1,20 @@
 .header {
     background-color: rgb(29, 29, 29);
-    position: relative;
-    width: 100%;
-    height: 110px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 14vw;
+    gap: 42vw;
 }
 .tomain {
-    position: absolute;
-    right: 10%;
-    top: 35%;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    padding: 10px 24px; 
+    padding: 0.6vw 0.8vw; 
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1vw;
     transition: 0.3s;
     font-family: "Kanit", sans-serif;
     font-weight: 500;
@@ -25,11 +25,8 @@
     background-color: rgb(97, 97, 97);
 }
 .logo {
-    width: 300px;
-    position: absolute;
-    left: 10%;
+    width: 20vw;
 }
-
 
 .top{
     display: flex;
@@ -42,15 +39,16 @@
 
 .topic{
     color: rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: 3vw;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
 
 .slider {
-    width: 65%;
-    height: 60%;
+    position: relative;
+    width: 70vw;
+    height: 40vw;
     overflow: hidden;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -58,8 +56,9 @@
 }
 
 .slides {
+    position: absolute;
+    top: -4vw;
     display: flex;
-    top : -70px;
     width: 100%;
     animation: slideAnimation 21s infinite;
 }
@@ -95,45 +94,63 @@
 
 
 .mid{
-    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: rgb(255, 255, 255);
-    height: 1080px;
-    width: 100%;
 }
-.storytext{
-    position: absolute;
-    left: 25%;
+
+.box0{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4vw;
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+}
+
+.logo1{
+    width: 10vw;
+    margin-left: -6vw;
+}
+
+.text1{
     color: rgb(22, 22, 22);
-    font-size: 70px;
+    font-size: 3vw;
     font-family: "Kanit", sans-serif;
     font-weight: 600;
     font-style: normal;
+    margin-top: 6vw;
 }
 
-.at{
-    position: absolute;
-    right: 17%;
-    color: rgb(0, 0, 0);
-    font-size: 70px;
+.storytext{
+    width: 70%;
+    word-wrap: break-word;
+    color: rgb(22, 22, 22);
+    font-size: 3vw;
     font-family: "Kanit", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
+    margin-bottom: 0vw;
 }
-.midpic1{
-    position: absolute;
+
+.box1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+
+.midpic1,.midpic2{
     border-radius: 10px;
-    width: 20%;
-    right: 10%;
-    top:24%;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    width: 35vw;
+    
 }
 
 .storytext1{
-    width: 50%;
+    width: 70%;
     word-wrap: break-word;
-    position: absolute;
-    left: 15%;
-    top: 24%;
     color: rgb(0, 0, 0);
     font-size: 25px;
     font-family: "Kanit", sans-serif;
@@ -142,113 +159,105 @@
 }
 
 
-.midpic2{
-    position: absolute;
+.box2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+
+.cern1,.cern2{
     border-radius: 10px;
-    width: 20%;
-    right: 10%;
-    top: 70%;
+    width: 35vw;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
 
-.cern1{
-    position: absolute;
-    border-radius: 10px;
-    width: 18%;
-    left: 43%;
-    top: 70%;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
-}
 
-.cern2{
-    position: absolute;
-    border-radius: 10px;
-    width: 18.5%;
-    left: 17%;
-    top: 70%;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
-}
+
+
+
+
 
 .mid2{
-    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: rgb(27, 27, 27);
-    height: 1450px;
-    width: 100%;
+}
+
+.box3{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4vw;
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+}
+
+.logo2{
+    width: 10vw;
+    margin-left: -6vw;
+}
+
+.text2{
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 6vw;
+}
+
+.box4{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2vw;
 }
 
 
+.midpic4,.midpic5{
+    border-radius: 10px;
+    width: 35vw;
+    
+}
 .storytext2{
-    position: absolute;
-    right: 30%;
+    width: 70%;
+    word-wrap: break-word;
     color: rgb(255, 255, 255);
-    font-size: 70px;
+    font-size: 3vw;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin-bottom: 0vw;
 }
 
-.at2{
-    position: absolute;
-    left: 17%;
-    color: rgb(255, 255, 255);
-    font-size: 70px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+.box5{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
 }
 
-.midpic4{
-    position: absolute;
+
+.cern3,.cern4{
     border-radius: 10px;
-    width: 20%;
-    left: 15%;
-    top: 17%;
+    width: 35vw;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
 
-.midpic5{
-    position: absolute;
-    border-radius: 10px;
-    width: 20%;
-    left: 15%;
-    top: 54%;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
-}
-
-.midpic6{
-    position: absolute;
-    border-radius: 10px;
-    width: 20%;
-    left: 15%;
-    top: 80%;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
-}
-
-.cern3{
-    position: absolute;
-    border-radius: 10px;
-    width: 20%;
-    top: 80%;
-    left: 45%;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
-}
-
-.cern4{
-    position: absolute;
-    border-radius: 10px;
-    width: 20%;
-    left: 70%;
-    top: 80%;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
-}
 
 .storytext3{
-    width: 50%;
+    width: 70%;
     word-wrap: break-word;
-    position: absolute;
-    left: 40%;
-    top: 14%;
-    color: rgb(182, 182, 182);
+
+
+    color: rgb(255, 255, 255);
     font-size: 25px;
     font-family: "Kanit", sans-serif;
     font-weight: 400;
@@ -264,39 +273,22 @@
 }
 
 .mid3{
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
     background-color: white;
-    height: 200px;
-    width: 100%;
+    gap: 5vw;
 }
 
-.logo1{
-    position: absolute;
-    width: 8%;
-    left: 14%;
-    top: 2%;
-}
-
-.logo2{
-    position: absolute;
-    width: 7.5%;
-    top:10px;
-    right : 10%;
-}
 
 .logo3{
-    position: absolute;
-    width: 6%;
-    left: 17%;
-    top:20%;
+    width: 5vw;
 }
 
 .thank{
-    position: absolute;
-    left: 30%;
-    top: 10%;
-    color: rgb(31, 29, 29);
-    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
     font-family: "Kanit", sans-serif;
     font-weight: 400;
     font-style: normal;

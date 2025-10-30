@@ -1,20 +1,20 @@
 .header {
     background-color: rgb(29, 29, 29);
-    position: relative;
-    width: 100%;
-    height: 110px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 14vw;
+    gap: 42vw;
 }
 .tomain {
-    position: absolute;
-    right: 10%;
-    top: 35%;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    padding: 10px 24px; 
+    padding: 0.6vw 0.8vw; 
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1vw;
     transition: 0.3s;
     font-family: "Kanit", sans-serif;
     font-weight: 500;
@@ -25,32 +25,46 @@
     background-color: rgb(97, 97, 97);
 }
 .logo {
-    width: 300px;
-    position: absolute;
-    left: 10%;
+    width: 20vw;
 }
 
+
 .top{
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
     background-color: rgb(255, 255, 255);
-    height: 1400px;
-    width: 100%;
+    padding-bottom: 5vw;
 }
 
 .topic{
-    position: absolute;
-    left: 14%;
     color: rgb(0, 0, 0);
-    font-size: 60px;
+    font-size: 4vw;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin-bottom: -1vw;
 }
 
+
+.toppic1{
+    width: 70vw;
+}
+
+
+.text{
+    width: 65%;
+    word-wrap: break-word;
+    color: rgb(0, 0, 0);
+    font-size: 1.5vw;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 .slider {
-    position: relative;
-    top: 55%;
-    left: 17%;
     width: 65%;
     height: 38%;
     overflow: hidden;
@@ -59,9 +73,7 @@
 }
 
 .slides {
-    position: absolute;
     display: flex;
-    top : -20px;
     width: 100%;
     animation: slideAnimation 21s infinite;
 }
@@ -97,313 +109,232 @@
 
 
 
-.toppic1{
-position: absolute;
-width: 15%;
-left: 14%;
-top: 15%;
-}
 
-.toppic2{
-position: absolute;
-width: 8%;
-left: 33%;
-top: 15%;
-}
-
-.toppic3{
-position: absolute;
-width: 12%;
-left: 47%;
-top: 15%;
-}
-
-.toppic4{
-position: absolute;
-width: 8%;
-left: 65%;
-top: 15%;
-}
-
-.toppic5{
-position: absolute;
-width: 9%;
-left: 78%;
-top: 14.4%;
-}
-
-
-.text{
-    width: 75%;
-    word-wrap: break-word;
-    position: absolute;
-    left: 14%;
-    top: 25%;
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-
-.headt{
-    position: relative;
+.midzone1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    padding-bottom: 5vw;
     background-color: black;
-    height: 140px;
-    width: 100%;
 }
 
 .rank{
-    position: absolute;
-    left: 14%;
+    width: 65%;
+    word-wrap: break-word;
     color: rgb(255, 255, 255);
-    font-size: 45px;
+    font-size: 2.7vw;
     font-family: "Kanit", sans-serif;
     font-weight: 600;
     font-style: normal;
-}
-
-.midzone1{
-    position: relative;
-    background-color: black;
-    height: 2250px;
-    width: 100%;
+    margin-bottom: -1vw;
 }
 
 .text0{
-    position: absolute;
-    left: 17%;
+    width: 65%;
+    word-wrap: break-word;
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 2vw;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin-bottom: -3vw;
+}
+
+.mission{
+    width: 65%;
+    word-wrap: break-word;
+
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+    margin-left: -5vw;
 }
 
 .result1{
-    position: absolute;
-    left: 17%;
-    width: 32%;
-    top: 14%;
+    width: 32vw;
     border-radius: 10px;
 }
 
-.text1{
-    position: absolute;
-    
-    top:12%;
-    left: 52%;
 
+.text1{
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 2vw;
     font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 
 .teampic1{
-    position: absolute;
-    left: 52%;
-    top: 22.5%;
-    width: 26%;
+
+    width: 27vw;
     border-radius: 10px;
 }
 
-.mission{
-    width: 70%;
-    word-wrap: break-word;
-    position: absolute;
-    top: 3%;
-    left: 17%;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
+
 
 .im{
-    position: absolute;
-    left: 14%;
-    top: 36%;
+    width: 65%;
+    word-wrap: break-word;
     color: rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: 3vw;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin-bottom: -3vw;
 }
 
 .storytext1{
-    width: 70%;
+    width: 65%;
     word-wrap: break-word;
-    position: absolute;
-    top: 40%;
-    left: 17%;
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 1.5vw;
     font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 
 .vdo1{
-    position: absolute;
-    left: 17%;
-    width: 63%;
-    top: 54%;
+    width: 65vw;
     border-radius: 10px;
 }
 
-.piccern{
-    position: absolute;
-    left:17%;
-    top: 85%;
-    width: 25%;
+.box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+}
+
+
+.piccern,.qr{
+    width: 32vw;
     border-radius: 10px;
 }
 
-.qr{
-    position: absolute;
-    left:45%;
-    top: 85%;
-    width: 31%;
-    border-radius: 10px;
-}
+
+
+/*               ssssssssssssssssssssssssssssss                      */
+
+
+
 
 .midzone2{
-    position: relative;
-    background-color: white;
-    height: 2600px;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    padding-bottom: 5vw;
+    background-color: rgb(255, 255, 255);
 }
 
 .rank2{
-    width: 70%;
+    width: 65%;
     word-wrap: break-word;
-    position: absolute;
-    left: 14%;
     color: rgb(0, 0, 0);
-    font-size: 45px;
+    font-size: 2.7vw;
     font-family: "Kanit", sans-serif;
     font-weight: 600;
     font-style: normal;
+    margin-bottom: -1vw;
 }
 
 .text2{
-    position: absolute;
-    left: 17%;
-    top: 5%;
+    width: 65%;
+    word-wrap: break-word;
     color: rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 2vw;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin-bottom: -3vw;
 }
 
 .mission2{
-    width: 70%;
+    width: 65%;
     word-wrap: break-word;
-    position: absolute;
-    top: 8%;
-    left: 17%;
+
     color: rgb(0, 0, 0);
-    font-size: 30px;
+    font-size: 1.5vw;
     font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 
-
-.result2{
-    position: absolute;
-    left: 17%;
-    width: 32%;
-    top: 18%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+.box3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+    margin-left: -5vw;
 }
 
-.text3{
-    position: absolute;
-    
-    top: 16%;
-    left: 52%;
+.result2{
+    width: 32vw;
+    border-radius: 10px;
+}
 
+
+.text3{
     color: rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 2vw;
     font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 
 .teampic2{
-    position: absolute;
-    left: 52%;
-    top: 25%;
-    width: 26%;
+
+    width: 27vw;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
 
 
 .im2{
-    position: absolute;
-    left: 14%;
-    top: 37%;
+    width: 65%;
+    word-wrap: break-word;
     color: rgb(0, 0, 0);
-    font-size: 50px;
+    font-size: 3vw;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin-bottom: -3vw;
 }
 
 .storytext2{
-    width: 70%;
+    width: 65%;
     word-wrap: break-word;
-    position: absolute;
-    top: 42%;
-    left: 17%;
     color: rgb(0, 0, 0);
-    font-size: 30px;
+    font-size: 1.5vw;
     font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 
-
 .vdo2{
-    position: absolute;
-    left: 17%;
-    width: 63%;
-    top: 58%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-
-
-.piccern2{
-    position: absolute;
-    left:17%;
-    top: 85%;
-    width: 26.5%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 65vw;
     border-radius: 10px;
 }
 
-.qr2{
-    position: absolute;
-    left: 47%;
-    top: 85%;
-    width: 33%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+.box4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+}
+
+
+.piccern2,.qr2{
+    width: 32vw;
     border-radius: 10px;
 }
-
-.bottom{
-    position: relative;
-    width: 100%;
-    background-color: rgb(19, 19, 19);
-    height: 200px;
-}
-

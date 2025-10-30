@@ -155,7 +155,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* ให้ภาพอยู่กลาง */
-  gap: 60px 6%; /* ช่องว่างระหว่างแถวและคอลัมน์ */
+  gap: 3vw 3vw; /* ช่องว่างระหว่างแถวและคอลัมน์ */
   width: 70%;
 }
 
