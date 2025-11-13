@@ -3,11 +3,11 @@ let d=true;
 
 function change1() {
     if(c){
-        document.getElementById("img1").src = "pp1back.jfif";
+        document.getElementById("img1").src = "pp1back.jpg";
         c=false;
     }
     else{
-        document.getElementById("img1").src = "pp1font.jfif";
+        document.getElementById("img1").src = "pp1font.jpg";
         c=true;
     }
 }
